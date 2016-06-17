@@ -1,0 +1,10 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: Request: kadm5_init, [._[:alnum:]-]+@[._[:alnum:]-]+, success, client=[._[:alnum:]-]+@[._[:alnum:]-]+, service=kadmin\/admin@[._[:alnum:]-]+, addr=[[:alnum:].]+, vers=4, flavor=6$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: Request: kadm5_get_policy, default, Policy does not exist, client=[._[:alnum:]-]+@[._[:alnum:]-]+, service=kadmin\/admin@[._[:alnum:]-]+, addr=[[:alnum:].]+$
+ client=[._[:alnum:]-]+@[._[:alnum:]-]+, service=kadmin\/admin@[._[:alnum:]-]+, addr=[[:alnum:].]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: starting$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: kadmind: starting\.\.\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kpropd\[[0-9]+\]: Connection from [._[:alnum:]-]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: Request: kadm5_init, kdc[0-9]+.*success.*service=kadmin\/admin
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: Request: kadm5_get_policy, default, Policy does not exist, client=kdc.*
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: Request: kadm5_create_principal, host\/kdc[0-9]+.prd.dmz.vision.fhg.de@VISION.FHG.DE, Principal or policy already exists.*
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ kadmind\[[0-9]+\]: closing down fd [0-9]+$

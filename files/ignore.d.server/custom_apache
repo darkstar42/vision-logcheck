@@ -1,0 +1,3 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[[0-9]+\]: Reload(ed|ing) LSB: Apache2 web server.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ apache2\[[0-9]+\]: Reloading web server: apache2.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ apache2: PHP Warning:  array_search\(\) expects parameter 2 to be array, null given in \/vision\/htdocs\/intranet\/common\/includes\/usermgmt\.inc on line 4$

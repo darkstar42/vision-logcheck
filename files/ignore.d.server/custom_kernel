@@ -1,0 +1,3 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: \[[ [:alnum:]\.]+\] perf interrupt took too long \([0-9]+ > [0-9]+\), lowering kernel\.perf_event_max_sample_rate to [0-9]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: \[[ [:alnum:]\.]+\] device-mapper: uevent: version [.[:alnum:]]+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ kernel: \[[ [:alnum:]\.]+\] device-mapper: ioctl: [.[:alnum:]]+-ioctl \([[:alnum:]-]+\) initialised: dm-devel@redhat\.com$

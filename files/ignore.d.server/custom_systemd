@@ -1,0 +1,4 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Start(ing|ed) Cleanup of Temporary Directories\.+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: New session [[:digit:]]+ of user nagios-ssh\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd-logind\[[[:digit:]]+\]: Removed session [[:digit:]]+\.$
+^\w{3} [ :[:digit:] ]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Reloading\.$

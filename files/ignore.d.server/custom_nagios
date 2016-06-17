@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ nagios3\[[0-9]+\]: Reloading nagios3 monitoring daemon configuration files: nagios3\.$

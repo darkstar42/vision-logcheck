@@ -1,4 +1,4 @@
-# Class: PROFILE_NAME
+# Class: vision_logcheck
 # ===========================
 #
 # Parameters
@@ -8,9 +8,26 @@
 # --------
 #
 # @example
-# contain PROFILE_NAME
+# contain ::vision_logcheck
 #
 
-class PROFILE_NAME {
+class vision_logcheck (
+
+) {
+
+  package { 'logcheck':
+    ensure => present,
+  }
+
+  file { '/etc/logcheck/ignore.d.server/':
+    ensure  => directory,
+    owner   => 'root',
+    group   => 'logcheck',
+    mode    => '0644',
+    purge   => false,
+    recurse => true,
+    source  => 'puppet:///modules/vision_logcheck/ignore.d.server/',
+    require => Package['logcheck'],
+  }
 
 }

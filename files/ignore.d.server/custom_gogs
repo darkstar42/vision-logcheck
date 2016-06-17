@@ -1,0 +1,18 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] Doing: MirrorUpdate.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] SSH: Handshaking for [[:alnum:].]+:[[:alnum:]]+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[(T|D)\] SSH: .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[W\] SSH: Handshaking was terminated: EOF+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[W\] SSH: Invalid env arguments: '\[\]string\{.*\}'+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] Doing: (GitFsck|CheckRepoStats).{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] Hook delivered: [0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] Session ID: [[:alnum:]]+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] CSRF Token: [_=[:alnum:]]+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] Template: [[:alnum:]\/]+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] .*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] TriggerTask.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] AddTestPullRequestTask.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] DeliverHooks.*$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ gogs-web-1\.service\[[[:digit:]]+\]: \[Macaron\] .+$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ systemd\[[[:digit:]]+\]: Reloading\.$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[\.\.\.s\/modules\/ssh\/ssh\.go:137 func1\(\)\] \[E\] SSH: Error on handshaking: read tcp [:[:alnum:].]+->[:[:alnum:].]+: read: connection reset by peer.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ gogs-web-1\.service\[[[:digit:]]+\]:[ \/:[:digit:]]{20} \[(D|T)\] .+$

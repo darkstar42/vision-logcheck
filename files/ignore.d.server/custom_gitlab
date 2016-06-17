@@ -1,0 +1,10 @@
+^\w{3} [ :0-9]{11} gitlab docker-compose\[[0-9]+\]: #033\[33mredis_1.*$
+^\w{3} [ :0-9]{11} gitlab systemd\[[0-9]+\]: Failed to set cpu.cfs_period_us on \/system.slice\/systemd-tmpfiles-clean.service: Permission denied$
+^\w{3} [ :0-9]{11} gitlab systemd\[[0-9]+\]: Failed to set cpu.cfs_period_us on \/system.slice\/[[:alnum:].]+: Permission denied$
+^\w{3} [ :0-9]{11} gitlab systemd\[[0-9]+\]: Failed to set cpu.cfs_quota_us on \/system.slice\/systemd-tmpfiles-clean.service: Permission denied$
+^\w{3} [ :0-9]{11} gitlab systemd\[[0-9]+\]: Failed to set cpu.cfs_quota_us on \/system.slice\/[[:alnum:].]+: Permission denied$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* [[:digit:]]+ changes in [[:digit:]]+ seconds. Saving...$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* Background saving started by pid [[:digit:]]+$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* DB saved on disk$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* RDB: [[:digit:]]+ MB of memory used by copy-on-write$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* Background saving terminated with success$
