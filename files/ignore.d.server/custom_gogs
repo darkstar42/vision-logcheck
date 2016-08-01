@@ -6,7 +6,7 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] Doing: (GitFsck|CheckRepoStats).{7}$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] Hook delivered: [0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}.{7}$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] Session ID: [[:alnum:]]+.{7}$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] CSRF Token: [_=[:alnum:]]+.{7}$
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] CSRF Token: .*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[D\] Template: [[:alnum:]\/]+.{7}$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] .*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ [._[:alnum:]-]+\[[[:digit:]]+\]\: [[:digit:]]+\/[[:digit:]]+\/[[:digit:]]+ [ :[:digit:]]{8} .{10}\[T\] TriggerTask.*$

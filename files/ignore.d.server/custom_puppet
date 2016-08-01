@@ -3,3 +3,4 @@
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ puppet-agent\[[0-9]+\]: \(\/Stage\[main\]\/Ruby\/Package\[rubygems\]\/ensure\) created$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[1\]: (Stopping|Starting|Started) The Marionette Collective\.+$
 ^\w{3} [ :0-9]{11} [._[:alnum:]-]+ systemd\[1\]: mcollective\.service: Supervising process [[:alnum:]]+ which is not our child\. We'll most likely not notice when it exits\.$
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ puppet-agent\[[0-9]+\]: Failed to apply catalog: no parameter named 'ensure'$
