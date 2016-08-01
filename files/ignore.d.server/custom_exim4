@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ exim4\[[[:digit:]]+\]: (Starting|Stopping) MTA: .*$
