@@ -1,2 +1,2 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\: time="[._[:alnum:]:-]+" level=info msg=.*$
-^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\:.+GET \/cron.php.+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\:.+GET \/.+
