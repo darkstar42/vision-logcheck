@@ -1,0 +1,1 @@
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\: [[:alnum:].]+ - ([ \-[:alnum:].]+)? \[?[ :+[:alnum:]\/]{26}\]? "(REPORT|PROPFIND|OPTIONS) .*$
