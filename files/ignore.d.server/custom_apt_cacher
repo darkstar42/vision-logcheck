@@ -1,0 +1,1 @@
+^\w{3} [ :0-9]{11} [._[:alnum:]-]+ docker\[[0-9]+\]: \[[[:digit:]]+\] [[:digit:]]{2} \w{3} [ :.[:digit:]]{12} \* Background saving terminated with success$
