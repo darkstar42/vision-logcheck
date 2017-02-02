@@ -1,2 +1,3 @@
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\: time="[._[:alnum:]:-]+" level=info msg=.*$
 ^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\:.+GET \/.+
+^\w{3} [ :[:digit:]]{11} [._[:alnum:]-]+ docker\[[[:digit:]]+\]\: [[:digit:]\-]+ [[:digit:]\:]+,[[:digit:]\:]+ DEBG 'nginx' stderr output:
