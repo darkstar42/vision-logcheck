@@ -18,6 +18,9 @@ matrix:
     services: docker
     sudo: required
     script: bundle exec rake beaker
+  - rvm: 2.2
+    sudo: required
+    script: ruby files/validate_regex.rb
 notifications:
   email:
     recipients:
@@ -25,4 +28,4 @@ notifications:
     on_success: never
     on_failure: always
   slack:
-    secure: k9X+z4k2IiRQOQ/iSyOpHH/aJ744CNWnqR4qZSAekRTykewDgePOADvVLdmSiqmDrTpvXQslErmiCvxfIsqoQVy9EXW2MZaDOuK3LkHryn5/GnkztEatWtGglVzfQxBstHtmR2+0G4eOsiJBPWKwJMQ4loMJjI6bH5rloGa9ICJf991ZKPAn6/SW8HFrjXc38lquOxTPUDwOfdPnTlFKWCV6wcCpDJno28OTERLg6IUFmrKorWbRmnLnsjq4dpsurIxcV+uKeo69mIAdnjlu1ueyd3QiJAtscYpz0aOtq6mWvq/8tJp1v4nvYN+hw738aryjRNlRirkGVGz/3BKo5yX0ea086R5soxi3JvZYMtN82qu7gwfESFN6Gd4kV8dGh71bi5tcP1HKCESxiC8zo0yfRgS5gLIJWVGF9ayKKfmjkDke00UBACfAGTu5NPg5HHiGMPDYdP/7zM8wcTGn8te8yKNjlV8O2P1pCclxCTkHnjllvSk8XUeB5BMntgfzz/yRG0/cbaZln7Ky9lNepT0k9uYqAqW1/D1iFRRf5l91WpHqRKohz2uCw8wr6+CGKBubkigGx4uAwWMGfqvf7Qxrdcc27GA0jEvssFK/63RVIy9vB4WP6HcxfCjClFmrOCKPuwRT20DDlEcK6FS8vwhpVYjH9ncB3rRqwn0i+dM=
+    secure: Id23mm3tZEeoLBdQnOWQltcr9DL4xDT2BsL3KktsyGQq0PY1nC5COcs506Zolvwyic3/LB4wmITj6PFwXJ64U8+fv7sZ1C1tJXf7JPzeIdJ0m3+4QVA9Tcw5J7E/x0zRyKbDhPkWql4TWBAa3Xytp4NB0oNfPr6jXOqkQkBaLQJZ04gWUUoNkColvBHZ72QKxGf43E0ncMhOgq/KOd4R3+nfbo/P0KsA+fPQJCM0kf30TI3w6lUfWq3EAXKmCfXpebKEfMHweenxjnxXnq7xLTmgTei+8KhF4fmVGzglAKmYrtZHPFFe4AoJFX78Se37TXlPtNVDYEQiUbmy6ZprFj1hqSkmE4uoe8Y9AlUHCRnWNED3xUbrleCVBCDwbj/X9vsHq9bkbmh4miY+jtW+YTfA3AjzjfSHBw+RxHgXz+23U4tdzzsWBSX1u14eSA1VYa4B5zJp9/DZZFcWByVeO/ToPqO1JDpAa9TCYWjJd1HSkYAdtcRM0Il1tJdCC8hPfcLoXOz+3ialLMijx/bCnxaw6Mo8iibT8pGEy+OOhpoEmGAzuEqngmbqW1hceUrirXUw+F5/oFZF6cMNbetVneIAsmG34DDrtiqRcank+g2yypRbjm4J9JNgQev8Fa00Jzhw8NtMBsofdfXHvQSQq93OsveiUwLAh5aOYRIZ/g4=
